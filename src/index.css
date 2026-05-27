@@ -131,7 +131,7 @@ button {
 /* ========================= */
 
 .featured {
-  height: 600px;
+  height: 100dvh;
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
@@ -202,6 +202,7 @@ button {
 }
 
 .movie-row h2 {
+  padding: 0px 12px;
   margin-bottom: 16px;
   font-size: 24px;
 }
@@ -210,7 +211,7 @@ button {
   display: flex;
   gap: 16px;
   overflow-x: auto;
-  padding-bottom: 12px;
+  padding: 12px;
 }
 
 .movie-list::-webkit-scrollbar {
@@ -271,7 +272,7 @@ button {
 
 .details-page {
   min-height: 100vh;
-  background-size: cover;
+  background-size: contain;
   background-position: right;
   padding: 140px 40px 40px;
 }
