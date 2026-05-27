@@ -14,7 +14,7 @@ function Login() {
     if (email === "user@devflix.com" && password === "123456") {
       navigate("/home");
     } else {
-      alert("Email ou senha inválidos!");
+      alert("Invalid email or password!");
     }
   }
 
@@ -23,20 +23,20 @@ function Login() {
       <div className="login-page">
         <form className="login-box" onSubmit={handleLogin}>
           <h1>GAMEFLIX</h1>
-          <h2>Entrar</h2>
+          <h2>Login</h2>
           <input
             type="email"
-            placeholder="Digite seu email"
+            placeholder="Enter your email"
             value={email}
             onChange={(event) => setEmail(event.target.value)}
           />
           <input
             type="password"
-            placeholder="Digite sua senha"
+            placeholder="Enter your password"
             value={password}
             onChange={(event) => setPassword(event.target.value)}
           />
-          <button type="submit">Entrar</button>
+          <button type="submit">Login</button>
           <p className="login-help">Use: user@devflix.com / 123456</p>
         </form>
       </div>
