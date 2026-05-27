@@ -32,7 +32,7 @@ function GameDetails() {
         <div className="details-content">
           <h1>{game.title}</h1>
           <p>{game.description}</p>
-          <span>Category: {game.category}</span> <span>Type: {game.type}</span>
+          <span>Category: {game.category}</span> <span>Developher: {game.developher}</span>
           <div className="details-buttons">
             <button>Play Now</button>
             <button onClick={() => navigate("/home")}>Go Back</button>
